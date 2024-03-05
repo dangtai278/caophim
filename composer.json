@@ -1,0 +1,29 @@
+{
+    "name": "dangtai278/caophim",
+    "description": "dangtai278 crawler mod",
+    "type": "package",
+    "require": {
+        "haiau009/kkphim-core": "^1.0.0",
+        "intervention/image": "^2.7"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Nguonc\\Crawler\\NguoncCrawler\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "phim5s",
+            "email": "admin@phim5s.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Nguonc\\Crawler\\NguoncCrawler\\NguoncCrawlerServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "stable"
+}
