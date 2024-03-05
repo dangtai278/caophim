@@ -20,8 +20,8 @@
     ],
     "extra": {
         "laravel": {
-            "dont-discover": [
-                "Nguonc\\Crawler\\NguoncCrawler\\NguoncCrawlerServiceProvider"
+            "providers": [
+                "KKPhim\\Crawler\\KKPhimCrawler\\KKPhimCrawlerServiceProvider"
             ]
         }
     },
